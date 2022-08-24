@@ -5,7 +5,6 @@ const iframe = document.querySelector('iframe');
 const iframePlayer = new Player(iframe);
 
 playerCurrentTime();
-
 iframePlayer.on('timeupdate', throttle(saveTime, 1000));
 
 function saveTime(time) {
