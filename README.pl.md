@@ -70,5 +70,5 @@ Jeżeli otwiera się pusta strona, upewnij się, że w zakładce `Console` nie m
 
 1. Po każdym pushu w gałęzi `main` repozytorium GitHub, włącza się specjalny skrypt (GitHub Action) z pliku `.github/workflows/deploy.yml`.
 2. Wszystkie pliki repozytorium kopiują się na serwer, gdzie projekt inicjalizuje się i buduje przed deploymentem.
-3. Jeżeli wszystkie kroki zakończyły się sukcesem, zbudowana wersja produkcyjna plików projektu wysyła się w gałąź `gh-pages`. W przeciwnym razie, w logu wykonania skryptu wskazane zostanie, w czym jest problem.
+3. Jeżeli wszystkie kroki zakończyły się sukcesem, zbudowana wersja produkcyjna plików projektu wysyła się w gałąź `gh-pages`. W przeciwnym razie, w logu wykonania skryptu wskazane zostanie, w czym jest problem  .
 
